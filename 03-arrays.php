@@ -33,7 +33,7 @@
 
     <h3>Array Associativo</h3>
     <?php
-    /* Chaves associativas */
+
     $livros = [
         "titulo" => "Senhor dos Anéis",
         "autor" => "J.J.R. Tolkien",
@@ -43,7 +43,15 @@
     ?>
 
     <p>Livro: <?=$livro["titulo"]?></p>
-    <p>Escrito por: <?=$livro["autor"]?> em <?=$livro?["ano"]>.</p>
+    <p>Escrito por: <?=$livro["autor"]?> em <?=$livro["ano"]?>. </p>
+
+<h2>Analisando a estrutura de arrays usando print_r() e var_dump()</h2>
+<?=print_r($bandas)?>
+<br> <br>
+<?=var_dump($bandas)?>
+
+<pre> <?=print_r($bandas)?></pre>
+<pre> <?=var_dump($bandas)?></pre>
 
 
 </body>
