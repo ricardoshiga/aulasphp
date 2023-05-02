@@ -59,7 +59,7 @@ const EMPRESA = "ABC Tecnologia";
     ?>
 <p>Autor do site: <?=AUTOR?></p>
 <p>Taxa de juros: <?=JUROS?>% em <?=$ano?></p>
-<p>Prestaor de serviço <?=EMPRESA?></p>
+<p>Prestador de serviço: <?=EMPRESA?></p>
 
 
 
