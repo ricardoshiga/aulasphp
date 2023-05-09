@@ -31,8 +31,10 @@
 
     ?>
 
-<p>Salário antigo: <?=$salario?> </p>
-<p>Salário novo: <?=$novoSalario?> </p>
+<p>Salário antigo: <?=number_format($salario, 2, ",",".")?> </p>
+<p>Salário novo: <?=number_format($novoSalario, 2, ",",".")?> </p>
+
+
 
 
 </body>
