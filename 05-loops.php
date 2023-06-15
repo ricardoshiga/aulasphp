@@ -81,7 +81,7 @@ $meses = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", 
 
 
  <h2>foreach</h2>
- <!-- PAra cada BANDA dentro do array BANDAS, mostre um parágrafo -->
+ <!-- Para cada BANDA dentro do array BANDAS, mostre um parágrafo -->
  <?php foreach ($bandas as $banda) { ?>
  <p>Banda: <b><?=$banda?></b>  </p>  
 <?php  } ?>
